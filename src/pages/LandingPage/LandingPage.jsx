@@ -124,7 +124,7 @@ class LandingPage extends Component {
                                 <Fade right delay={300}>
                                     <div className="composition">
                                         <img
-                                            src="http://localhost:8080/user/photo/5cab6abfdfb58c5ba4c225e9"
+                                            src="https://images.unsplash.com/photo-1571366343168-631c5bcca7a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
                                             alt="Screenshot 1"
                                             className="composition_photo "
                                         />

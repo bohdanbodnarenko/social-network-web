@@ -6,7 +6,7 @@ import {
   setSelectedChannel,
   addMessageToSelectedChannel
 } from "../store/channels/actions";
-const socketConnection = "ws://localhost:8080";
+const socketConnection = process.env.REACT_APP_WS_ENDPOINT;
 const socket = io.connect(socketConnection);
 
 socket.on("post_updated", post => {

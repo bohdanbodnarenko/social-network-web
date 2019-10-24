@@ -27,11 +27,11 @@ export const updateAccount = async (id, user) => {
 };
 
 export const getLinkToUserAvatar = id => {
-  return `http://localhost:8080/user/photo/${id}`;
+  return `${process.env.REACT_APP_API_ENDPOINT}/user/photo/${id}`;
 };
 
 export const getLinkToPostImage = id => {
-  return `http://localhost:8080/post/photo/${id}`;
+  return `${process.env.REACT_APP_API_ENDPOINT}/post/photo/${id}`;
 };
 
 export const getLinkToPrivateChannel = async userId => {
