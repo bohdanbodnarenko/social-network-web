@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 450;
+}
+
+body {
+  background: #191919;
+  color: #ffffff;
+}
+
+/* #C1292E */
+/* #436436 */
+.whiteText {
+  color: white;
+}
+
+/* #5545CC */
+a {
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #7b4bc4;
+}
+
+.primaryText {
+  color: #5545cc;
+}
+
+.activeLink {
+  color: #464646;
+}
+
+.middleIcon {
+  font-size: 1.5em;
+}
+
+.bigIcon {
+  font-size: 1.8em;
+}
+
+svg {
+  font-size: 1.2em;
+}
